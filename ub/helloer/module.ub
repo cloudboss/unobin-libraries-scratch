@@ -1,0 +1,5 @@
+description: 'Reusable hello primitives'
+
+exports: {
+  hello: 'hello.ub'
+}
