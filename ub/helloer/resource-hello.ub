@@ -10,8 +10,8 @@ hello: resource {
 
   resources: {
     hello-file: std.fs-file {
-      path:    var.path
-      content: var.message
+      path:    input.path
+      content: input.message
     }
   }
 
